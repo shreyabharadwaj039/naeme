@@ -29,9 +29,11 @@
   z-index: 0;
 }
 nav {
-  background-color: rgba(27, 0, 27, 0.989);
-  z-index: 2;
-  position: relative;
+  background-color: rgba(27, 0, 27, 0.989) !important;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
 }
 .featurette-image {
   max-width: 100%; /* Ensures the image does not exceed the container's width */
@@ -62,4 +64,7 @@ html {
 }
 * {
   box-sizing: border-box;
+}
+#web-design {
+  padding-top: 70px;
 }
